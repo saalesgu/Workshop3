@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "workshop-3"
+version = "0.1.0"
+description = "Machine learning and data streaming"
+authors = ["SamuelEscalante"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.2"
+seaborn = "^0.13.2"
+matplotlib = "^3.8.4"
+ipykernel = "^6.29.4"
+plotly = "^5.21.0"
+nbformat = "^5.10.4"
+country-converter = "^1.2"
+scikit-learn = "^1.4.2"
+joblib = "^1.4.2"
+kafka-python = "^2.0.2"
+sqlalchemy = "^2.0.30"
+psycopg2 = "^2.9.9"
+sqlalchemy-utils = "^0.41.2"
+
+[tool.poetry.dev-dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

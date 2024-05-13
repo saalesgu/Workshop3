@@ -1,0 +1,9 @@
+.env
+
+__pycache__/
+
+.venv/
+
+data/
+
+db_settings.json
